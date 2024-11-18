@@ -1,0 +1,21 @@
+[package]
+
+name = "spidev"
+version = "0.6.0"
+authors = [
+    "Paul Osborne <osbpau@gmail.com>",
+    "The Embedded Linux Team <embedded-linux@teams.rust-embedded.org>"
+]
+edition = "2018"
+license = "MIT/Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/rust-embedded/rust-spidev"
+homepage = "https://github.com/rust-embedded/rust-spidev"
+documentation = "https://docs.rs/spidev"
+description = """
+Provides access to the Linux spidev interface.  This
+interface allows for configuration of the spidev device,
+half-duplex SPI access, and full-duplex SPI access.
+"""
+
+[dependencies]
